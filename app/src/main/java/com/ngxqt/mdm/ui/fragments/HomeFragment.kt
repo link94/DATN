@@ -92,7 +92,7 @@ class HomeFragment : Fragment() {
             } else if (position == 3){
                 findNavController().navigate(R.id.action_homeFragment_to_staffFragment)
             } else if (position == 4){
-                //findNavController().navigate(R.id.action_homeFragment_to_statisticalFragment)
+                findNavController().navigate(R.id.action_homeFragment_to_staticalFragment)
                 //Toast.makeText(requireContext(),"Thống kê", Toast.LENGTH_SHORT).show()
             } else if (position == 5){
                 findNavController().navigate(R.id.action_homeFragment_to_inventoryFragment)

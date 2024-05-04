@@ -84,6 +84,13 @@
             app:exitAnim="@anim/to_left"
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_homeFragment_to_staticalFragment"
+            app:destination="@id/statisticalFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
     </fragment>
     <fragment
         android:id="@+id/notiFragment"
@@ -271,5 +278,10 @@
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right"/>
     </fragment>
+    <fragment
+        android:id="@+id/statisticalFragment"
+        android:name="com.ngxqt.mdm.ui.fragments.StatisticalFragment"
+        android:label="fragment_statistical"
+        tools:layout="@layout/fragment_statistical" />
 
 </navigation>
